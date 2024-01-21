@@ -2,7 +2,7 @@
 author: Jay
 pubDatetime: 2022-07-18T15:22:00Z
 modDatetime: 2022-07-18T09:12:47.400Z
-title: 元宇宙是未来还是过渡营销？
+title: 元宇宙是未来还是过度营销？
 slug: metaverseview
 featured: false
 draft: false
