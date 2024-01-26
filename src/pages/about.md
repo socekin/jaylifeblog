@@ -2,12 +2,13 @@
 layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
-
-Jay的谜语生活，这里是我的虚拟和现实的交界地，曾在汽车行业蹒跚4年，窥得一点行业经验，也经受过懵懂创业的教训，后来闯入AI领域，从刚进入时的崇拜憧憬，到现在归于平常心，专注自己喜欢的事情，感兴趣的可以一起交流。
-
 <div>
-  <img src="/assets/jay.webp" class="sm:w-1/1 mx-auto" alt="coding dev illustration">
+  <img src="/assets/jay.png" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
+
+Jay的谜语生活，这里是我的虚拟和现实的交界地，曾在汽车行业蹒跚4年，窥得一点行业经验，也经受过懵懂创业的教训，后来闯入AI领域，从刚进入时的崇拜憧憬，到现在归于平常心，专注自己喜欢的事情，欢迎交流。
+
+
 
 ## Projects
 
