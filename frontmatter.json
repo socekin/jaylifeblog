@@ -7,13 +7,13 @@
     {
       "title": "blog",
       "path": "[[workspace]]/src/content/blog"
-    }
+    },
   ],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
       "pageBundle": false,
-      "previewPath": "'blog'",
+      "previewPath": "'posts'",
       "filePrefix": null,
       "clearEmpty": true,
       "fields": [
@@ -43,5 +43,6 @@
         }
       ]
     }
-  ]
+  ],
+  "frontMatter.website.host": "https://jaylife.cc"
 }
