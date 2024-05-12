@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "关于我"
 ---
 <div>
   <img src="/assets/jay3.png" class="sm:w-1/6 mx-auto" alt="coding dev illustration">
