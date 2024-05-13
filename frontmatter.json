@@ -7,7 +7,7 @@
     {
       "title": "blog",
       "path": "[[workspace]]/src/content/blog"
-    },
+    }
   ],
   "frontMatter.taxonomy.contentTypes": [
     {
@@ -29,17 +29,40 @@
           "type": "string"
         },
         {
-          "title": "Publishing date",
-          "name": "pubDate",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
           "title": "Content preview",
           "name": "heroImage",
           "type": "image",
           "isPreviewImage": true
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "pubDatetime",
+          "name": "pubDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "modDatetime",
+          "name": "modDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "featured",
+          "name": "featured",
+          "type": "boolean"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
         }
       ]
     }
