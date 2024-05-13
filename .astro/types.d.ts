@@ -180,56 +180,63 @@ declare module 'astro:content' {
   slug: "12306ics";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 "AILLM.md": {
 	id: "AILLM.md";
   slug: "AILLM";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 "build-hugo.md": {
 	id: "build-hugo.md";
   slug: "hugoblog";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 "build-openwrt.md": {
 	id: "build-openwrt.md";
   slug: "openwrtcli";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
+} & { render(): Render[".md"] };
+"fusion.md": {
+	id: "fusion.md";
+  slug: "hafusion";
+  body: string;
+  collection: "blog";
+  data: any
 } & { render(): Render[".md"] };
 "home-assistant-ESXI.md": {
 	id: "home-assistant-ESXI.md";
   slug: "HAESXI";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 "home-assistant-NodeRed.md": {
 	id: "home-assistant-NodeRed.md";
   slug: "HANode";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 "metaverse.md": {
 	id: "metaverse.md";
   slug: "metaverseview";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 "rewrite-blog.md": {
 	id: "rewrite-blog.md";
   slug: "rebuildblog";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -241,5 +248,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../src/content/config");
+	type ContentConfig = never;
 }
